@@ -1,0 +1,445 @@
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+  .arpa,
+  .dev,
+  .agil,
+  .tcp,
+  .int {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    word-wrap: break-word;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+  footer a {
+    float: right;
+    margin-right: 5%;
+  }
+  .arpan,
+  .dev,
+  .agil,
+  .tcpb,
+  .intb {
+    width: 100px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: auto;
+  }
+  body {
+    font-size: 2vw;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(57, 95, 151);
+    margin-top: 30%;
+  }
+  .avatar {
+    flex: 1;
+  }
+  header {
+    position: fixed;
+    background-color: rgba(93, 127, 192, 0.616);
+    width: 100%;
+    top: 0.3%;
+  }
+
+  .ommig {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #avatar {
+    border-radius: 100px;
+    border: 2px solid;
+    width: 50px;
+    margin-left: 80%;
+  }
+  section {
+    background-color: aliceblue;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .länk {
+    list-style: none;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+  }
+
+  .länkar {
+    flex: 1;
+  }
+  nav a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .logo {
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(228, 150, 142);
+    width: 30px;
+    height: auto;
+    border-radius: 50px;
+    margin: 20%;
+  }
+
+  .länk:hover,
+  .logo:hover {
+    transition: 0.7s;
+    border: solid 1px;
+    background-color: pink;
+    border-radius: 100px;
+    opacity: 0.8;
+  }
+
+  footer {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(228, 150, 142);
+    padding: 1%;
+    color: aliceblue;
+    border: solid 3px;
+    border-radius: 10px;
+    background-image: url(https://media3.giphy.com/media/o7mLSkGYCu9Pi/200w.gif);
+    background-repeat: repeat;
+    position: absolute;
+    padding-bottom: 3%;
+  }
+  h2,
+  h3 {
+    text-align: center;
+  }
+  iframe {
+    width: 100px;
+    height: 60px;
+    margin-left: 30%;
+  }
+  article {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  footer a:visited {
+    color: aliceblue;
+  }
+  #avatar:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+}
+@media only screen and (max-width: 1100px) and (min-width: 500px) {
+  body {
+    font-size: 2vw;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(57, 95, 151);
+    margin-top: 30%;
+  }
+  header {
+    position: fixed;
+    background-color: rgba(93, 127, 192, 0.616);
+    width: 100%;
+    top: 0.5%;
+  }
+  footer a {
+    float: right;
+    margin-right: 5%;
+  }
+  #avatar:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+  .ommig {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #avatar {
+    border-radius: 100px;
+    border: 2px solid;
+    width: 100px;
+    margin-left: 80%;
+  }
+  section {
+    background-color: aliceblue;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .länk {
+    list-style: none;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .länkar {
+    flex: 1;
+  }
+  nav a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .arpa,
+  .dev,
+  .agil,
+  .tcp,
+  .int {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    word-wrap: break-word;
+    border-radius: 20px;
+  }
+  .arpan,
+  .dev,
+  .agil,
+  .tcpb,
+  .intb {
+    width: 250px;
+    margin-left: 30%;
+  }
+  .logo {
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(228, 150, 142);
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    margin: 20%;
+  }
+
+  .länk:hover,
+  .logo:hover {
+    transition: 0.7s;
+    border: solid 1px;
+    background-color: pink;
+    border-radius: 100px;
+    opacity: 0.8;
+  }
+
+  footer {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(228, 150, 142);
+    padding: 1%;
+    color: aliceblue;
+    border: solid 3px;
+    border-radius: 10px;
+    background-image: url(https://media3.giphy.com/media/o7mLSkGYCu9Pi/200w.gif);
+    background-repeat: repeat;
+    position: absolute;
+    padding-bottom: 3%;
+  }
+  h2,
+  h3 {
+    text-align: center;
+  }
+  article {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  iframe {
+    margin-left: 30%;
+  }
+  footer a:visited {
+    color: aliceblue;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  body {
+    margin-top: 10%;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(57, 95, 151);
+  }
+
+  .länkar,
+  .länk,
+  nav {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    width: 95%;
+    overflow: hidden;
+    top: 0;
+  }
+  header {
+    background-color: rgba(57, 100, 192, 0.733);
+    border-radius: 20px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    height: 9.5%;
+    top: 0;
+    overflow: hidden;
+  }
+  .länkar {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    flex: 6;
+  }
+
+  .länk {
+    list-style: none;
+    font-size: larger;
+    border: solid 2px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(228, 150, 142);
+  }
+
+  nav a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .länk:hover,
+  .logo:hover {
+    transition: 0.7s;
+    border: solid 1px;
+    background-color: pink;
+    border-radius: 100px;
+  }
+
+  .logo {
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: rgb(228, 150, 142);
+    width: 80px;
+    height: auto;
+    border-radius: 50px;
+  }
+
+  article {
+    background-color: aliceblue;
+    padding: 5%;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  .ommig {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .item {
+    text-align: center;
+    margin: auto;
+    width: min-content;
+  }
+
+  #avatar {
+    border-radius: 100px;
+    border: 2px solid;
+    max-width: 150px;
+  }
+
+  #avatar:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+
+  .arpa,
+  .dev,
+  .agil,
+  .tcp,
+  .int {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    word-wrap: break-word;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  aside {
+    width: 10%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10%;
+  }
+  section {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  footer {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(228, 150, 142);
+    padding: 1%;
+    color: aliceblue;
+    border: solid 3px;
+    border-radius: 10px;
+    background-image: url(https://media3.giphy.com/media/o7mLSkGYCu9Pi/200w.gif);
+    background-repeat: repeat;
+    bottom: 0;
+  }
+  iframe {
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 600px;
+    height: 340px;
+    margin-left: 13%;
+    position: relative;
+  }
+  .arpan,
+  .dev,
+  .agil,
+  .tcpb,
+  .intb {
+    width: 400px;
+  }
+  .arpan p,
+  .tcpb p,
+  .intb p {
+    font-size: 0.6rem;
+  }
+  footer a {
+    float: right;
+    color: aliceblue;
+    margin-right: 5%;
+  }
+  footer a:visited {
+    color: aliceblue;
+  }
+}

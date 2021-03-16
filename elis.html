@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tenta.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <title>Agila arbetssätt</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <a href=""><img class="logo" src="hem.png" alt="Hem"></a>
+            <ul class="länkar">
+                <li class="länk"><a href="#mig">Om mig</a></li>
+                <li class="länk"><a href="#agilt">Agila arbetssätt</a></li>
+                <li class="länk"><a href="#historia">Internets historia</a></li>
+                <li class="länk"><a href="#retro">Retrospektiv</a></li>
+                <li class="länk"><a href="#f">Sidans botten</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <section><aside>
+            <h2 id="mig">Om mig</h2>
+           <div class="ommig">
+               <p>Jag heter Elis och jag är 24 år gammal. Jag tog beslutet att i år, 2020, börja studera till systemutvecklare på TUC yrkeshögskola.</p>
+                <img id="avatar" src="elis.jpg" alt="Elis" title="Elis">
+                <audio id="elis">
+                    <source src="doot.mp3" type="audio/mp3">
+                  </audio>
+                  <script>
+                    var elis = $("#elis")[0];
+                    $("#avatar").mouseenter(function () {
+                      elis.play();
+                      elis.volume = 0.4;
+                    });</script>
+            </div>
+        </aside></section>
+    <section>
+        <article class="agile">
+            <br>
+            <h2 id="agilt">Agila arbetssätt</h2>
+            <p>Att arbeta agilt är att följa några grundläggande värderingar samt de tolv principerna. Det finns olika former av agila arbetssätt så som kanban och scrum.
+                Tidigare i den här kursen under grupparbeten har vi fått prova på olika agila arbetssätt och också fått använda oss utav olika verktyg såsom: trello, teams, github och vscode med liveshare. Det finns ett manifest för Agil systemutveckling som lyder:</p>
+            <p>Vi finner bättre sätt att utveckla programvara genom att utveckla själva och hjälpa andra att utveckla. Genom detta arbete har vi kommit att värdesätta:</p>
+            <p><strong>Individer och interaktioner</strong> framför processer och verktyg. <br>
+                <strong>Fungerande programvara</strong> framför omfattande dokumentation. <br>
+                <strong>Kundsamarbete</strong> framför kontraktsförhandling.<br>
+               <strong> Anpassning till förändring</strong> framför att följa en plan.</p>
+            <p>Det vill säga, medan det finns värde i punkterna till höger, värdesätter vi punkterna till vänster mer.</p>
+            <h3>Det agila manifestets tolv principer:</h3>
+            <ol>
+                <li>
+                  Högsta prioritet är att tillfredsställa kunden med tidig och
+                  kontinuerlig leverans av programvara
+                </li>
+                <li>
+                  Välkomna förändrande krav. Uttnytja förändringar till kundens
+                  konkurrensfördel
+                </li>
+                <li>Leverera fungerande programvara ofta.</li>
+                <li>
+                  Verksamhetskunniga och utvecklare måste arbeta tillsammans dagligen
+                  under hela projektet.
+                </li>
+                <li>
+                  Bygg projekt kring motiverade individer, ge dem stöd och lita på
+                  dem.
+                </li>
+                <li>
+                  Kommunicera face to face för att effektivt formedla information till
+                  och inom utvecklingsteamet.
+                </li>
+                <li>Fungerande programvara är främsta måttet på framsteg.</li>
+                <li>
+                  Agila metoder verkar för uthållighet. Sponsorer, utvecklare och
+                  användare skall kunna hålla jämn utvecklingstakt under obegränsad
+                  tid.
+                </li>
+                <li>
+                  kontinuerlig uppmärksamhet på förstklassig teknik och bra design
+                  stärker anpassningsförmågan.
+                </li>
+                <li>
+                  Enkelhet - konsten att maximera mängden arbete som inte görs - är
+                  grundläggande.
+                </li>
+                <li>
+                  Bäst arkitektur, krav och design växer fram med självorganiserande
+                  team.
+                </li>
+                <li>
+                  Med jämna mellanrum reflekterar teamet över hur det kan bli mer
+                  effektivt och justerar sitt beteende därefter.
+                </li>
+              </ol>
+        </article>
+        <article>
+            <h3>Modern Agile</h3> 
+            <img class="agil" src="modernagile.svg" alt="modernagile" title="Fyra principer">
+            <p>Modern Agile är ett arbetssätt som följer fyra principer för att skapa en optimal arbetsplats och koncepetet beskrivs bäst av dessa principer.</p>
+            <ul>
+                <li>Hjälp människor att briljera</li>
+            </ul>
+                <p>"Make people awsome" säger man på engelska. Tanken är att skapa en miljö där alla får möjlighet till utveckla sin förmågor till full potential och får känna att de får bidra. 
+                    Det gäller inte bara personerna som jobbar med att skapa projektet utan alla runt omkring som bidrar på något sätt, det vill säga,skapar, använder, köper, fundar eller säljer.
+                </p>
+            <ul>
+                <li>Experimentera och lär dig snabbt</li>
+            </ul>
+                <p>Om man jobbar i modern agile så måste man vara öppen för förändringar. Det gäller att lära sig genom att experimentera. Att lära sig om något blir fel utan att lägga skulden på någon. 
+                    På sidan "modernagile.org" referas det till "safe to fail". Det är alltså säkert att misslyckas. När man kör fast så ska man experimentera mer och om man misslyckas igen så har man lärt sig något på vägen.
+                </p>
+
+               <ul> <li>Leverera värde löpande</li></ul>
+                <p>Att leverera värde löpande är att man ska i till exempel mjukvarubranschen göra sig öppen för feedback till något som kanske bara är halvfärdigt och utveckla utefter det.
+                    Om man leverar något tidigt och låter köpare och säljare vara med och se produkten i processen och ge feedback så kan man säga att det ger effekten av safe och awsome. 
+                    Det ger en möjlighet till feedback.
+                    font-family: 'Poppins', sans-serif;
+                </p>
+                <ul><li>Skapa trygga förutsättningar</li></ul>
+                <p>Med det här menas att skapa en så trygg miljö eller arbetsplats, inte bara fysikt utan också psykiskt. Man ser också att otrygghet kan bromsa potentialen. 
+                    Så man håller personlig information säker samtidigt som arbetsplatsen hålls säker för maximal pontetial och för att hålla personal trygg från oro.
+                </p>  
+            
+            <p>Läs mer: </p><a href="https://modernagile.org/">https://modernagile.org/</a> 
+            <br><a href="https://www.citerus.se/modern-agile-tar-det-agila-ett-steg-langre/">https://www.citerus.se/modern-agile-tar-det-agila-ett-steg-langre/</a>
+            </article>
+            <article>
+            <h3>DevOps</h3>
+            <p>Det finns många alternativa agila arbetssätt inom programmering som mobprogrammering, XP (extreme programming) eller DevOps.
+                Nu tänkte jag gå in lite på DevOps.
+            </p>                <img class="dev" src="devops.png" alt="dev" title="devops">
+            <p>DevOps kombinerar mjukvarutvecklingen med IT-driften så att alla roller ska samarbeta för att skapa en bättre produkt. 
+                Med DevOps vill man alltså att produkten ska ta kortare tid att komma till marknaden för att ge mer konkurrens och på samma tid bibehålla stabilitiet och tillförlitlighet.</p>
+
+                <a href="https://azure.microsoft.com/sv-se/overview/what-is-devops/">Läs mer eller se video: </a><br>
+                <iframe src="https://www.youtube.com/embed/_I94-tJlovg" allow="accelerometer; autoplay;" allowfullscreen></iframe>
+        </article>
+
+    </section>
+
+    <section>
+
+        <article>
+            <h2 id="historia">Internets historia</h2>
+            <p>Här är tre saker jag har valt att skriva om som jag tycker är viktigt just under internets historia.</p>
+
+            <h3>Arpanet</h3>
+            <div class="arpa"><img class="arpan" src="Arpanet.jpg" alt="arpanet" title="arpanet"><p><em>Den här bilden visar hur "Arpanet" såg ut från början.</em></p></div>
+            <p>Den kanske viktigaste delen av internets historia är början. År 1969 skapade amerikansk militär internets föregångare "Arpanet".
+                Arpanet skapades så att forskarlag på olika universitet skulle kunna kommunicera med varandra via datorer. Det var mycket långsamt och i det första meddelandet som skickades så kraschade en av datorerna så bara 2 av 3 bokstäver togs emot.
+            </p>           
+            <p>Läs mer:</p><a href="https://sv.wikipedia.org/wiki/ARPANET">https://sv.wikipedia.org/wiki/ARPANET</a>
+        </article>
+        <article>
+            <h3>TCP/IP</h3>
+            <div class="tcp"><img class="tcpb" src="tcp.jpg" alt="TCP/IP" title="Cerf och Kahn"><p><em>Bilden visar Vint Cerf och Robert Kahn som sägs ha skapat TCP/IP-protokollen</em></p></div>
+            <p>Man skulle kunna säga att då TPC/IP uppfanns så uppfanns det internet vi använder oss utav idag. Vi använder oss fortfarande utav TCP/IP. Dessa protokoll uppfanns 1974 utav ingenjörerna Vint Cerf och Robert Kahn.
+                TCP/IP gjorde det snabbare att skicka paket mellan datorerna som var anslutna till nätverket. Men på den här tiden användes fortfarande "Arpanet". 
+            </p>
+            <p>Läs mer:</p> <a href="https://sv.wikipedia.org/wiki/Transmission_Control_Protocol">https://sv.wikipedia.org/wiki/Transmission_Control_Protocol</a>
+        </article>
+         <article>
+            <h3>Internet blev allmänt</h3>
+            <div class="int"><img class="intb" src="1990.jpg" alt="1990" title="Internet på 1990-talet"><p><em>Den här bilden visar hur kunde se ut att jobba med internet på 1990-talet.</em></p></div>
+            <p>På 1980-talet skapades många andra nätverk utöver världen så att universitet kunde börja kommunicera med varandra. Nätverken började också bli så populära att domäner behövde skapas
+                så att det gick att hantera den stora mängden av datorer som hade börjat att använda nätet. Man började använda sig utav modem för att "ringa upp". På 1990-talet efter att http, html och www hade skapats kunde man länka ihop all inormation världen över. 
+                Så på 1990-talet vart det möjligt för allmänheten att börja använda sig utav internet.
+            </p>
+  
+            <p>Läs mer:</p><a href="https://sv.wikipedia.org/wiki/Internets_historia">https://sv.wikipedia.org/wiki/Internets_historia</a>
+        </article>
+
+    </section>
+
+    <section>
+        <article>
+            <h2 id="retro">Retrospektiv</h2>
+            <p>Här sammanfattar jag lite om hur det har gått för mig under tiden jag har gjort den här sidan.</p>
+        </article>
+        <article>
+            <h3>Vad var lätt?</h3>
+            <p>För mig har generell styling varit enkel och html-delen. Jag tycker att semantik-delen har varit ganska enkel med. Sen så blev allt mycket lättare med när man lärt sig lite snippets och shortcuts.</p>
+        </article>
+        <article>
+            <h3>Vad var mina utmaningar?</h3>
+            <p>För mig har det varit lite strulit med att få allt där man vill ha det. Typ videos och bilder, särskilt om man håller på att skala om allt så det blir till en mobilenhet.</p>
+        </article>
+        <article>
+            <h3>Vad hag jag lärt mig?</h3>
+            <p>Jag har lärt mig mer om hur man ska hantera lågskalade skärmar som för mobilaenheter och jag har blivit bättre på att strukturerar upp allt. Det blir helt kaos i CSS filen men det bästa är väl att man kan använda sig mycket utav ctrl+f eller gömma delar som inte är relevanta där man är.</p>
+        </article>
+        <article>
+            <h3>Vad kan jag förbättra tills nästa gång?</h3>
+            <p>Jag kan öva mer, kanske förbereda filer bättre. Jag tycker att jag har haft hyffsad koll på hur allt fungerar men det går ju alltid att bli bättre jag är ju trots allt bara nybörjare.</p>
+        </article>
+
+    </section>
+
+    <footer id="f">
+        <a href="tenta.html">Åtgärdad sida</a>
+        <p>Elis Bihl</p>
+        <p> Breakrow™</p>
+        <p>Syne20lin TUC ©2020</p>
+        
+    </footer>
+
+</body>
+
+</html>

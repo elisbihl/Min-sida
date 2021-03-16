@@ -1,0 +1,41 @@
+html {
+  font-family: "Gill Sans", sans-serif;
+}
+
+h1,
+h2 {
+  color: snow;
+}
+
+h1 {
+  background-color: royalblue;
+  padding: 0.5rem 1rem;
+}
+
+h2 {
+  background-color: mediumpurple;
+}
+
+.section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.introduction {
+  font-style: italic;
+  font-size: small;
+}
+
+.home-logo {
+  max-width: 100px;
+}
+
+tuc-logo {
+  max-height: 200px;
+}
+
+.right {
+  float: right;
+  max-width: 300px;
+}
